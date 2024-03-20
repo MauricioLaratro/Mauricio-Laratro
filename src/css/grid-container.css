@@ -1,0 +1,6 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6,minmax(0,1fr));
+    inline-size: 100%;
+    grid-auto-rows: 12rem;
+}

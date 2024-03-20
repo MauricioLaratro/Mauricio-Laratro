@@ -1,0 +1,12 @@
+.card *{
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
